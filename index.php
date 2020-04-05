@@ -252,7 +252,7 @@
     <script src="js/scripts.min.js"></script>
 </body>
 <script>
-    var bgImageArray = ['', 1, 2, 3, 4,],
+    var bgImageArray = ['', 1, 2, 3, 4],
         base = "./images/lead-bg",
         secs = 4;
     bgImageArray.forEach(function (img) {
@@ -263,7 +263,7 @@
     function backgroundSequence() {
         window.clearTimeout();
         var k = 0;
-        for (i = 0; i <= 5; i++) {
+        for (i = 0; i <= 4; i++) {
             setTimeout(function () {
                 document.querySelector('#lead').style.background = "url(" + base + bgImageArray[k] + ".jpg) no-repeat center center fixed";
                 document.querySelector('#lead').style.backgroundSize = "cover";
