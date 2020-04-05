@@ -50,7 +50,7 @@
         <div id="lead-content">
             <h1>Claret Nnamocha</h1>
             <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="./Resume.docx" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
